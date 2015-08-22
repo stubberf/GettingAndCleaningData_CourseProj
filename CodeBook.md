@@ -72,100 +72,97 @@ X, Y and Z directions.
 
 Each observation contains the following info:
 
-tBodyAcc-mean()-X 	= mean time domain body accel. in the X dir.
-tBodyAcc-mean()-Y 	= mean time domain body accel. in the Y dir.
-tBodyAcc-mean()-Z 	= mean time domain body accel. in the Z dir.
-tBodyAcc-std()-X 	= std. dev. time domain body accel.in the X dir.
-tBodyAcc-std()-Y	= std. dev. time domain body accel.in the Y dir.
-tBodyAcc-std()-Z	= std. dev. time domain body accel.in the Z dir.
-tGravityAcc-mean()-X = mean time domain gravity accel.in the X dir.
-tGravityAcc-mean()-Y = mean time domain gravity accel.in the Y dir.
-tGravityAcc-mean()-Z = mean time domain gravity accel.in the Z dir.
-tGravityAcc-std()-X = std. dev. time domain gravity accel.in the X dir.
-tGravityAcc-std()-Y = std. dev. time domain gravity accel.in the Y dir.
-tGravityAcc-std()-Z = std. dev. time domain gravity accel.in the Z dir.
-tBodyAccJerk-mean()-X = mean time domain body accel. jerk - X dir.
-tBodyAccJerk-mean()-Y = mean time domain body accel. jerk - Y dir.
-tBodyAccJerk-mean()-Z = mean time domain body accel. jerk - Z dir.
-tBodyAccJerk-std()-X = std. time domain body accel. jerk - X dir.
-tBodyAccJerk-std()-Y = std. time domain body accel. jerk - Y dir.
-tBodyAccJerk-std()-Z = std. time domain body accel. jerk - Z dir.
-tBodyGyro-mean()-X = mean time domain body gyro. in the X dir.
-tBodyGyro-mean()-Y = mean time domain body gyro. in the Y dir.
-tBodyGyro-mean()-Z = mean time domain body gyro. in the Z dir.
-tBodyGyro-std()-X = std. time domain body gyro. in the X dir.
-tBodyGyro-std()-Y = std. time domain body gyro. in the Y dir.
-tBodyGyro-std()-Z = std. time domain body gyro. in the Z dir.
-tBodyGyroJerk-mean()-X = mean time domain body gyro. jerk - X dir.
-tBodyGyroJerk-mean()-Y = mean time domain body gyro. jerk - Y dir.
-tBodyGyroJerk-mean()-Z = mean time domain body gyro. jerk - Z dir.
-tBodyGyroJerk-std()-X = std. time domain body gyro. jerk - X dir.
-tBodyGyroJerk-std()-Y = std. time domain body gyro. jerk - Y dir.
-tBodyGyroJerk-std()-Z = std. time domain body gyro. jerk - Z dir.
-tBodyAccMag-mean() = mean time domain body accel. magnitude
-tBodyAccMag-std() = std. time domain body accel. magnitude.
-tGravityAccMag-mean() = mean time domain grav accel. magnitude
-tGravityAccMag-std() = std. time domain grav accel. magnitude
-tBodyAccJerkMag-mean() = mean time domain body accel. jerk magnitude
-tBodyAccJerkMag-std() = std. time domain body accel. jerk magnitude
-tBodyGyroMag-mean() = mean time domain body gyro. magnitude
-tBodyGyroMag-std() = std. time domain body gyro. magnitude
-tBodyGyroJerkMag-mean() = mean time domain body gyro. jerk magnitude
-tBodyGyroJerkMag-std() = std time domain body gyro. jerk magnitude
-fBodyAcc-mean()-X = mean freq. domain body accel. in the X dir.
-fBodyAcc-mean()-Y = mean freq. domain body accel. in the Y dir.
-fBodyAcc-mean()-Z = mean freq. domain body accel. in the Z dir.
-fBodyAcc-std()-X = std. freq. domain body accel. in the X dir.
-fBodyAcc-std()-Y = std. freq. domain body accel. in the Y dir.
-fBodyAcc-std()-Z = std. freq. domain body accel. in the Z dir.
-fBodyAcc-meanFreq()-X = mean freq. domain body accel. in the X dir.
-fBodyAcc-meanFreq()-Y = mean freq. domain body accel. in the Y dir.
-fBodyAcc-meanFreq()-Z = mean freq. domain body accel. in the Z dir.
-fBodyAccJerk-mean()-X = mean freq. domain body accel. Jerk - X dir.
-fBodyAccJerk-mean()-Y = mean freq. domain body accel. Jerk - Y dir.
-fBodyAccJerk-mean()-Z = mean freq. domain body accel. Jerk - Z dir.
-fBodyAccJerk-std()-X = std. freq. domain body accel. Jerk - X dir.
-fBodyAccJerk-std()-Y = std. freq. domain body accel. Jerk - Y dir.
-fBodyAccJerk-std()-Z = std. freq. domain body accel. Jerk - Z dir.
-fBodyAccJerk-meanFreq()-X = mean freq. domain body accel. Jerk - X dir.
-fBodyAccJerk-meanFreq()-Y = mean freq. domain body accel. Jerk - Y dir.
-fBodyAccJerk-meanFreq()-Z = mean freq. domain body accel. Jerk - Z dir.
-fBodyGyro-mean()-X = mean freq. domain body gyro. in the X dir.
-fBodyGyro-mean()-Y = mean freq. domain body gyro. in the Y dir.
-fBodyGyro-mean()-Z = mean freq. domain body gyro. in the Z dir.
-fBodyGyro-std()-X = std. freq. domain body gyro. in the X dir.
-fBodyGyro-std()-Y = std. freq. domain body gyro. in the Y dir.
-fBodyGyro-std()-Z = std. freq. domain body gyro. in the Z dir.
-fBodyGyro-meanFreq()-X = mean freq. domain body gyro. in the X dir.
-fBodyGyro-meanFreq()-Y = mean freq. domain body gyro. in the Y dir.
-fBodyGyro-meanFreq()-Z = mean freq. domain body gyro. in the Z dir.
-fBodyAccMag-mean() = mean freq. body accel. magnitude
-fBodyAccMag-std() = std. freq. body accel. magnitude
-fBodyAccMag-meanFreq() = meanfreq. body accel. magnitude
-fBodyBodyAccJerkMag-mean() = mean freq. body accel. jerk magnitude
-fBodyBodyAccJerkMag-std() = std. freq. body accel. jerk magnitude
-fBodyBodyAccJerkMag-meanFreq() = meanfreq. domain body accel. jerk magnitude
-fBodyBodyGyroMag-mean() = mean freq. domain gyro. body magnitude
-fBodyBodyGyroMag-std() = std. freq. domain gyro. body magnitude
-fBodyBodyGyroMag-meanFreq() = mean freq. domain gyro. body
-fBodyBodyGyroJerkMag-mean() = mean freq. domain gyro. jerk body
-fBodyBodyGyroJerkMag-std() = std. freq. domain gyro. jerk body magnitude
-fBodyBodyGyroJerkMag-meanFreq() = mean freq. domain gyro. jerk body magnitude
+* tBodyAcc-mean()-X 	= mean time domain body accel. in the X dir.
+* tBodyAcc-mean()-Y 	= mean time domain body accel. in the Y dir.
+* tBodyAcc-mean()-Z 	= mean time domain body accel. in the Z dir.
+* tBodyAcc-std()-X 	= std. dev. time domain body accel.in the X dir.
+* tBodyAcc-std()-Y	= std. dev. time domain body accel.in the Y dir.
+* tBodyAcc-std()-Z	= std. dev. time domain body accel.in the Z dir.
+* tGravityAcc-mean()-X = mean time domain gravity accel.in the X dir.
+* tGravityAcc-mean()-Y = mean time domain gravity accel.in the Y dir.
+* tGravityAcc-mean()-Z = mean time domain gravity accel.in the Z dir.
+* tGravityAcc-std()-X = std. dev. time domain gravity accel.in the X dir.
+* tGravityAcc-std()-Y = std. dev. time domain gravity accel.in the Y dir.
+* tGravityAcc-std()-Z = std. dev. time domain gravity accel.in the Z dir.
+* tBodyAccJerk-mean()-X = mean time domain body accel. jerk - X dir.
+* tBodyAccJerk-mean()-Y = mean time domain body accel. jerk - Y dir.
+* tBodyAccJerk-mean()-Z = mean time domain body accel. jerk - Z dir.
+* tBodyAccJerk-std()-X = std. time domain body accel. jerk - X dir.
+* tBodyAccJerk-std()-Y = std. time domain body accel. jerk - Y dir.
+* tBodyAccJerk-std()-Z = std. time domain body accel. jerk - Z dir.
+* tBodyGyro-mean()-X = mean time domain body gyro. in the X dir.
+* tBodyGyro-mean()-Y = mean time domain body gyro. in the Y dir.
+* tBodyGyro-mean()-Z = mean time domain body gyro. in the Z dir.
+* tBodyGyro-std()-X = std. time domain body gyro. in the X dir.
+* tBodyGyro-std()-Y = std. time domain body gyro. in the Y dir.
+* tBodyGyro-std()-Z = std. time domain body gyro. in the Z dir.
+* tBodyGyroJerk-mean()-X = mean time domain body gyro. jerk - X dir.
+* tBodyGyroJerk-mean()-Y = mean time domain body gyro. jerk - Y dir.
+* tBodyGyroJerk-mean()-Z = mean time domain body gyro. jerk - Z dir.
+* tBodyGyroJerk-std()-X = std. time domain body gyro. jerk - X dir.
+* tBodyGyroJerk-std()-Y = std. time domain body gyro. jerk - Y dir.
+* tBodyGyroJerk-std()-Z = std. time domain body gyro. jerk - Z dir.
+* tBodyAccMag-mean() = mean time domain body accel. magnitude
+* tBodyAccMag-std() = std. time domain body accel. magnitude.
+* tGravityAccMag-mean() = mean time domain grav accel. magnitude
+* tGravityAccMag-std() = std. time domain grav accel. magnitude
+* tBodyAccJerkMag-mean() = mean time domain body accel. jerk magnitude
+* tBodyAccJerkMag-std() = std. time domain body accel. jerk magnitude
+* tBodyGyroMag-mean() = mean time domain body gyro. magnitude
+* tBodyGyroMag-std() = std. time domain body gyro. magnitude
+* tBodyGyroJerkMag-mean() = mean time domain body gyro. jerk magnitude
+* tBodyGyroJerkMag-std() = std time domain body gyro. jerk magnitude
+* fBodyAcc-mean()-X = mean freq. domain body accel. in the X dir.
+* fBodyAcc-mean()-Y = mean freq. domain body accel. in the Y dir.
+* fBodyAcc-mean()-Z = mean freq. domain body accel. in the Z dir.
+* fBodyAcc-std()-X = std. freq. domain body accel. in the X dir.
+* fBodyAcc-std()-Y = std. freq. domain body accel. in the Y dir.
+* fBodyAcc-std()-Z = std. freq. domain body accel. in the Z dir.
+* fBodyAcc-meanFreq()-X = mean freq. domain body accel. in the X dir.
+* fBodyAcc-meanFreq()-Y = mean freq. domain body accel. in the Y dir.
+* fBodyAcc-meanFreq()-Z = mean freq. domain body accel. in the Z dir.
+* fBodyAccJerk-mean()-X = mean freq. domain body accel. Jerk - X dir.
+* fBodyAccJerk-mean()-Y = mean freq. domain body accel. Jerk - Y dir.
+* fBodyAccJerk-mean()-Z = mean freq. domain body accel. Jerk - Z dir.
+* fBodyAccJerk-std()-X = std. freq. domain body accel. Jerk - X dir.
+* fBodyAccJerk-std()-Y = std. freq. domain body accel. Jerk - Y dir.
+* fBodyAccJerk-std()-Z = std. freq. domain body accel. Jerk - Z dir.
+* fBodyAccJerk-meanFreq()-X = mean freq. domain body accel. Jerk - X dir.
+* fBodyAccJerk-meanFreq()-Y = mean freq. domain body accel. Jerk - Y dir.
+* fBodyAccJerk-meanFreq()-Z = mean freq. domain body accel. Jerk - Z dir.
+* fBodyGyro-mean()-X = mean freq. domain body gyro. in the X dir.
+* fBodyGyro-mean()-Y = mean freq. domain body gyro. in the Y dir.
+* fBodyGyro-mean()-Z = mean freq. domain body gyro. in the Z dir.
+* fBodyGyro-std()-X = std. freq. domain body gyro. in the X dir.
+* fBodyGyro-std()-Y = std. freq. domain body gyro. in the Y dir.
+* fBodyGyro-std()-Z = std. freq. domain body gyro. in the Z dir.
+* fBodyGyro-meanFreq()-X = mean freq. domain body gyro. in the X dir.
+* fBodyGyro-meanFreq()-Y = mean freq. domain body gyro. in the Y dir.
+* fBodyGyro-meanFreq()-Z = mean freq. domain body gyro. in the Z dir.
+* fBodyAccMag-mean() = mean freq. body accel. magnitude
+* fBodyAccMag-std() = std. freq. body accel. magnitude
+* fBodyAccMag-meanFreq() = meanfreq. body accel. magnitude
+* fBodyBodyAccJerkMag-mean() = mean freq. body accel. jerk magnitude
+* fBodyBodyAccJerkMag-std() = std. freq. body accel. jerk magnitude
+* fBodyBodyAccJerkMag-meanFreq() = meanfreq. domain body accel. jerk magnitude
+* fBodyBodyGyroMag-mean() = mean freq. domain gyro. body magnitude
+* fBodyBodyGyroMag-std() = std. freq. domain gyro. body magnitude
+* fBodyBodyGyroMag-meanFreq() = mean freq. domain gyro. body
+* fBodyBodyGyroJerkMag-mean() = mean freq. domain gyro. jerk body
+* fBodyBodyGyroJerkMag-std() = std. freq. domain gyro. jerk body magnitude
+* fBodyBodyGyroJerkMag-meanFreq() = mean freq. domain gyro. jerk body magnitude
 
 *angle(): Angle between to vectors.*
 
-angle(tBodyAccMean,gravity) = the angle between mean body accel. and 
-                              gravity
-angle(tBodyAccJerkMean),gravityMean) = the angle between mean body 
-                                       accel. jerk and gravityMean
-angle(tBodyGyroMean,gravityMean) = the angle between mean body gyro. 
-                                   and gravityMean
-angle(tBodyGyroJerkMean,gravityMean) = the angle between the body 
-                                       gyro. jerk mean and the 
-									   gravityMean
-angle(X,gravityMean) = the angle between X and the gravityMean
-angle(Y,gravityMean) = the angle between Y and the gravityMean
-angle(Z,gravityMean) = the angle between Z and the gravityMean
-
-
-
+* angle(tBodyAccMean,gravity) = the angle between mean body accel. and 
+                                gravity
+* angle(tBodyAccJerkMean),gravityMean) = the angle between mean body 
+                                         accel. jerk and gravityMean
+* angle(tBodyGyroMean,gravityMean) = the angle between mean body gyro. 
+                                     and gravityMean
+* angle(tBodyGyroJerkMean,gravityMean) = the angle between the body 
+                                         gyro. jerk mean and the 
+	  								     gravityMean
+* angle(X,gravityMean) = the angle between X and the gravityMean
+* angle(Y,gravityMean) = the angle between Y and the gravityMean
+* angle(Z,gravityMean) = the angle between Z and the gravityMean
