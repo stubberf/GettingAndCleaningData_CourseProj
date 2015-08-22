@@ -44,7 +44,8 @@ columns (2 additional from the "activity" label and "subject id").
 
 ##Codebook
 
-*From the original codebook*
+**From the original codebook** 
+
 The features selected for this database come from the accelerometer 
 and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time 
 domain signals (prefix 't' to denote time) were captured at a 
