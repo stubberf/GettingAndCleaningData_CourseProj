@@ -2,10 +2,11 @@
 Repo for Getting and Cleaning Data Coursera Course
 
 ##Summary
-The instructions below will allow you to recreate the tidy dataset 
-from the original data. Y will need to run the R file "run_analysis".
-The instructions will describe the setup needed to perform this 
-correctly. 
+The instructions below will allow you to recreate a summarized tidy 
+dataset version of the original *Human Activity Recognition Using 
+Smartphones Data Set*. 
+You will need to run the R file "run_analysis". The instructions will 
+describe the setup needed to perform this correctly. 
 
 ##How to Prepare Tidy dataset
 1. Download the original dataset Human Activity Recognition Using 
