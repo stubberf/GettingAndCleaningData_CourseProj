@@ -1,6 +1,12 @@
 # GettingAndCleaningData_CourseProj
 Repo for Getting and Cleaning Data Coursera Course
 
+##Summary
+The instructions below will allow you to recreate the tidy dataset 
+from the original data. Y will need to run the R file "run_analysis".
+The instructions will describe the setup needed to perform this 
+correctly. 
+
 ##How to Prepare Tidy dataset
 1. Download the original dataset Human Activity Recognition Using 
    Smartphones Data Set Version 1.0 from: 
@@ -21,3 +27,13 @@ Run the R script "run_analysis.R"
 
 #### Please note:
 * The "run_analysis.R" script was designed with R version 3.2.1
+
+##The dataset includes the following files:
+* 'README.md'
+* 'run_analysis.R': R program to recreate the tidy dataset
+* 'UCI HAR Dataset - Final Tidy.txt': The final summarized tidy dataset
+* 'features.txt': List of all features.
+* 'X_train.txt': Training set.
+* 'y_train.txt': Training labels.
+* 'X_test.txt': Test set.
+* 'y_test.txt': Test labels.

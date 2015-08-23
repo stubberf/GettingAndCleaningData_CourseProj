@@ -37,7 +37,7 @@ dataset attempted to only collect the *"mean"*, and *"standard
 deviation"* variables from the original vector. Concretely, it uses 
 only those variables that contained the term "mean", or "std" in 
 their name. This reduces the feature vector size to 86. This vector 
-was summarized for each *subject*, and *activity* by taking the mean 
+was summarized for each *subject*, and *activity* by taking the **mean**
 of the respective observations. This dataset contains 180 rows and 88
 columns (2 additional from the "activity" label and "subject id").
 
@@ -72,6 +72,10 @@ for each pattern: '-XYZ' is used to denote 3-axial signals in the
 X, Y and Z directions.
 
 Each observation contains the following info:
+
+**Please Note: In the original dataset the data was normalized between 
+[-1,1]. The variables listed below are the means of the respective 
+data from the original dataset and are therefore unit-less. 
 
 * tBodyAcc-mean()-X 	= mean time domain body accel. in the X dir.
 * tBodyAcc-mean()-Y 	= mean time domain body accel. in the Y dir.
